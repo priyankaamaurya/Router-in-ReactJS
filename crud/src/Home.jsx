@@ -22,16 +22,28 @@ const Home = () => {
         <table border={1}>
             <thead>
                 <tr>
-                    <td>Id</td>
-                    <td>Name</td>
-                    <td>Phone no</td>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Phone no</th>
                 </tr>
             </thead>
-            {/* <tbody>
+            <tbody>
                 {
-                    data.map
+                    data.map((a) => {
+                        // console.log(a)
+                        let{id, name, phone} = a
+                        console.log(id, name, phone)
+
+                        return(
+                            <tr key={id}>
+                                <td> {id} </td>
+                                <td> {name} </td>
+                                <td> {phone} </td>
+                            </tr>
+                        )
+                    })
                 }
-            </tbody> */}
+            </tbody>
         </table>
     </div>
   )
