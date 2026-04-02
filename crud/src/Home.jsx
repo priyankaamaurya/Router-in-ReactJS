@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -19,12 +20,18 @@ const Home = () => {
   return (
     <div>
         <h1>Users Data</h1>
-        <table border={1}>
+        <div>
+            <button>
+                <Link to="/create"> Create</Link>
+            </button>
+        </div>
+        <table border={1} style={{borderCollapse:"collapse"}} cellPadding={8} width={900}>
             <thead>
                 <tr>
                     <th>Id</th>
                     <th>Name</th>
                     <th>Phone no</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -39,6 +46,14 @@ const Home = () => {
                                 <td> {id} </td>
                                 <td> {name} </td>
                                 <td> {phone} </td>
+                                <td> 
+                                    <button> 
+                                        <Link to="/update"> Update </Link>
+                                    </button>
+                                    <button>
+                                        <Link to="/delete"> Delete </Link>
+                                    </button>
+                                </td>
                             </tr>
                         )
                     })
@@ -50,3 +65,6 @@ const Home = () => {
 }
 
 export default Home
+
+// npm i -g json-server
+// json-server --watch db.json --port 3030

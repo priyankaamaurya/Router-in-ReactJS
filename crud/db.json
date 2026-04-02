@@ -79,6 +79,52 @@
       "name": "Updated Anderson",
       "phone": "901-234-5679",
       "website": "lucasanderson.com"
+    },
+    {
+      "userName": [
+        "wertyui"
+      ],
+      "number": [
+        "345678"
+      ],
+      "id": "QOkXFQ11ouM"
+    },
+    {
+      "userName": [
+        "Priyanka"
+      ],
+      "number": [
+        "9876543245"
+      ],
+      "id": "QfvOIIxrB7o"
+    },
+    {
+      "name": [
+        "Priyanka"
+      ],
+      "phone": [
+        "9876554432"
+      ],
+      "id": "ikKJehiykIE"
+    },
+    {
+      "name": [
+        "Payal"
+      ],
+      "phone": [
+        "8765436768"
+      ],
+      "id": "8_I9HdStnmI"
+    },
+    {
+      "name": [
+        "Aditi"
+      ],
+      "phone": [
+        "7654326788"
+      ],
+      "id": "3HPPWT8CqZI"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
