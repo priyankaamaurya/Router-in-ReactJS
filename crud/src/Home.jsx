@@ -15,7 +15,22 @@ const Home = () => {
         fetch()
     },[])
 
-    console.log(data)
+    // console.log(data)
+
+    function handleDelete(id) {
+        console.log(id)
+        let res = confirm("Do you want to delete the data")
+        if(res) {
+            axios.delete(`http://localhost:3030/users/${id}`)
+            .then((res)=>{
+                console.log(res)
+                console.log("Data is deleted")
+                location.reload()
+            }).catch((err)=>{
+                console.log(err)
+            })
+        }
+    }
 
   return (
     <div>
@@ -39,7 +54,7 @@ const Home = () => {
                     data.map((a) => {
                         // console.log(a)
                         let{id, name, phone} = a
-                        console.log(id, name, phone)
+                        // console.log(id, name, phone)
 
                         return(
                             <tr key={id}>
@@ -48,11 +63,12 @@ const Home = () => {
                                 <td> {phone} </td>
                                 <td> 
                                     <button> 
-                                        <Link to="/update"> Update </Link>
+                                        <Link to={`/update/${id}`}> Update </Link>
                                     </button>
-                                    <button>
-                                        <Link to="/delete"> Delete </Link>
+                                    <button> 
+                                        <Link to={`/read/${id}`}> Read </Link>
                                     </button>
+                                    <button onClick={()=>handleDelete(id)}> Delete </button> 
                                 </td>
                             </tr>
                         )

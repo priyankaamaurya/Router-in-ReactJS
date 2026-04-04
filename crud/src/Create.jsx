@@ -45,10 +45,12 @@ const Create = () => {
         <br />
 
         <button type='submit'> Submit </button>
-        
+
       </form>
     </div>
   )
 }
 
 export default Create
+
+// ( ˶ˆ ᗜ ˆ˵ )

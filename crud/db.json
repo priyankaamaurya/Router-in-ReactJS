@@ -4,8 +4,12 @@
       "id": "9",
       "username": "daniel_thomas",
       "email": "updated.thomas@example.com",
-      "name": "123456789009876543",
-      "phone": "901-234-5678",
+      "name": [
+        "Prerna"
+      ],
+      "phone": [
+        "9876543212"
+      ],
       "website": "danielthomas.io"
     },
     {
@@ -45,7 +49,9 @@
       "username": "logan_roberts",
       "email": "logan.roberts@example.com",
       "name": "Logan Roberts",
-      "phone": "567-890-123509876543",
+      "phone": [
+        "9876897654"
+      ],
       "website": "loganroberts.net"
     },
     {
@@ -82,21 +88,18 @@
     },
     {
       "userName": [
-        "wertyui"
-      ],
-      "number": [
-        "345678"
-      ],
-      "id": "QOkXFQ11ouM"
-    },
-    {
-      "userName": [
         "Priyanka"
       ],
       "number": [
         "9876543245"
       ],
-      "id": "QfvOIIxrB7o"
+      "id": "QfvOIIxrB7o",
+      "name": [
+        "Muskan"
+      ],
+      "phone": [
+        "9518803611"
+      ]
     },
     {
       "name": [
