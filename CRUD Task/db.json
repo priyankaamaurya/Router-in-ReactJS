@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": "9",
+      "username": "daniel_thomas",
+      "email": "updated.thomas@example.com",
+      "name": [
+        "Prernaert"
+      ],
+      "phone": [
+        "987654356"
+      ],
+      "website": "danielthomas.io"
+    },
+    {
+      "id": "10",
+      "username": "mia_hernandez",
+      "email": "mia.hernandez@example.com",
+      "name": "Mia Hernandez",
+      "phone": "012-345-6789",
+      "website": "miahernandez.biz"
+    },
+    {
+      "id": "11",
+      "username": "william_king",
+      "email": "william.king@example.com",
+      "name": "William King",
+      "phone": "123-456-7891",
+      "website": "williamking.tech"
+    },
+    {
+      "id": "12",
+      "username": "ava_scott",
+      "email": "ava.scott@example.com",
+      "name": "Ava Scott",
+      "phone": "234-567-8902",
+      "website": "avascott.co"
+    },
+    {
+      "id": "13",
+      "username": "james_walker",
+      "email": "james.walker@example.com",
+      "name": "James Walker",
+      "phone": "345-678-9013",
+      "website": "jameswalker.design"
+    },
+    {
+      "id": "15",
+      "username": "logan_roberts",
+      "email": "logan.roberts@example.com",
+      "name": "Logan Roberts",
+      "phone": [
+        "9876897654"
+      ],
+      "website": "loganroberts.net"
+    },
+    {
+      "id": "16",
+      "username": "lily_clark",
+      "email": "lily.clark@example.com",
+      "name": "Lily Clark",
+      "phone": "678-901-2346",
+      "website": "lilyclark.biz"
+    },
+    {
+      "id": "17",
+      "username": "ethan_white",
+      "email": "ethan.white@example.com",
+      "name": "Ethan White",
+      "phone": "789-012-3457",
+      "website": "ethanwhite.info"
+    },
+    {
+      "id": "18",
+      "username": "amelia_moore",
+      "email": "amelia.moore@example.com",
+      "name": "Amelia Moore",
+      "phone": "890-123-4568",
+      "website": "ameliamoore.co"
+    },
+    {
+      "id": "19",
+      "username": "lucas_anderson",
+      "email": "updated.anderson@example.com",
+      "name": "Updated Anderson",
+      "phone": [
+        "9072345679"
+      ],
+      "website": "lucasanderson.com"
+    },
+    {
+      "userName": [
+        "Priyanka"
+      ],
+      "number": [
+        "9876543245"
+      ],
+      "id": "QfvOIIxrB7o",
+      "name": [
+        "Muskan"
+      ],
+      "phone": [
+        "9518803611"
+      ]
+    },
+    {
+      "name": [
+        "Priyanka"
+      ],
+      "phone": [
+        "9876554432"
+      ],
+      "id": "ikKJehiykIE"
+    },
+    {
+      "name": [
+        "Roshni"
+      ],
+      "phone": [
+        "9876543987"
+      ],
+      "id": "mrUbXUxOqmg"
+    },
+    {
+      "name": [
+        "werthj"
+      ],
+      "phone": [
+        "3456"
+      ],
+      "id": "4Gg_4fBkkZ4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
